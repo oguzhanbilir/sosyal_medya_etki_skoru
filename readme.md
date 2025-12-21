@@ -19,4 +19,7 @@ başlıklı sosyoloji projesinde kullanılan veri setlerini içermektedir.
 - Kişisel veri içermemektedir.
 - Proje raporu ve analiz sonuçları bu depoya dahil edilmemiştir.
 
+### Data Directory Structure
 
+- `data/birlestirilmis_veri_seti.csv`: Ön işleme ve birleştirme sonrası nihai analiz verisi.
+- `data/ham_veriler.zip`: Toplanan ham veri setleri (GitHub’a ZIP olarak yüklenmiştir).
