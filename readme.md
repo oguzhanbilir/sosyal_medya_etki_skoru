@@ -1,25 +1,34 @@
 # Sosyal Medya Etki Skoru – Veri Setleri
 
-Bu depo, TÜBİTAK 2204-A kapsamında yürütülen
-“sosyal medya içeriklerinin toplumsal etkisinin çok boyutlu analizi”
-başlıklı sosyoloji projesinde kullanılan veri setlerini içermektedir.
+Bu depo, TÜBİTAK 2204-A Lise Öğrencileri Araştırma Projeleri Yarışması kapsamında
+yürütülen sosyoloji alanındaki bir araştırma projesinde kullanılan veri setlerini
+içermektedir.
+
+Çalışmada, sosyal medya platformlarında paylaşılan içeriklerin toplumsal etkisini
+incelemek amacıyla çok boyutlu bir etki skoru yaklaşımı geliştirilmiştir.
+Bu yaklaşım, etkileşim düzeyi, duygu tonu ve konu çeşitliliği bileşenlerini
+birlikte ele almaktadır.
 
 ## Veri İçeriği
 
+Bu depoda yer alan veri setleri aşağıda özetlenmiştir:
+
 - `data/birlestirilmis_veri_seti.csv`  
-  Çalışmada analiz edilen YouTube, Reddit ve Mastodon içeriklerinden
-  elde edilen ve ön işleme aşamalarından geçirilmiş nihai veri setidir.
+  YouTube, Reddit ve Mastodon platformlarından elde edilen kamuya açık içeriklerin
+  ön işleme ve birleştirme adımlarından geçirilmiş nihai analiz veri setidir.
 
 - `data/ham_veriler.zip`  
-  Platformlardan elde edilen kamuya açık sosyal medya verilerini içermektedir.
+  Çalışma kapsamında kullanılan, platformlardan elde edilmiş kamuya açık ham
+  sosyal medya verilerini içermektedir.
 
-## Notlar
+## Kullanım ve Etik Notlar
 
-- Veri setleri yalnızca akademik amaçlarla paylaşılmıştır.
-- Kişisel veri içermemektedir.
-- Proje raporu ve analiz sonuçları bu depoya dahil edilmemiştir.
+- Veri setleri yalnızca akademik ve bilimsel amaçlarla paylaşılmıştır.
+- Çalışmada kişisel veri içeren herhangi bir bilgi yer almamaktadır.
+- Veri setleri, proje raporunda sunulan analiz ve bulgularla birebir uyumludur.
 
-### Data Directory Structure
+## Açıklama
 
-- `data/birlestirilmis_veri_seti.csv`: Ön işleme ve birleştirme sonrası nihai analiz verisi.
-- `data/ham_veriler.zip`: Toplanan ham veri setleri (GitHub’a ZIP olarak yüklenmiştir).
+Dosya boyutu ve teknik sınırlamalar nedeniyle veri setleri proje raporuna eklenmemiş,
+şeffaflık ve yeniden üretilebilirlik ilkeleri doğrultusunda bu GitHub deposu
+üzerinden paylaşılmıştır.
