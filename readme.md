@@ -19,6 +19,4 @@ başlıklı sosyoloji projesinde kullanılan veri setlerini içermektedir.
 - Kişisel veri içermemektedir.
 - Proje raporu ve analiz sonuçları bu depoya dahil edilmemiştir.
 
-## Lisans
 
-Bu veri seti akademik kullanım için paylaşılmıştır.
