@@ -1,34 +1,24 @@
-# Sosyal Medya Etki Skoru – Veri Setleri
+English | [Türkçe](README.tr.md)
 
-Bu depo, TÜBİTAK 2204-A Lise Öğrencileri Araştırma Projeleri Yarışması kapsamında
-yürütülen sosyoloji alanındaki bir araştırma projesinde kullanılan veri setlerini
-içermektedir.
+# Social media impact score: datasets
 
-Çalışmada, sosyal medya platformlarında paylaşılan içeriklerin toplumsal etkisini
-incelemek amacıyla çok boyutlu bir etki skoru yaklaşımı geliştirilmiştir.
-Bu yaklaşım, etkileşim düzeyi, duygu tonu ve konu çeşitliliği bileşenlerini
-birlikte ele almaktadır.
+Datasets from a sociology research project carried out for TÜBİTAK 2204-A (high school research projects).
 
-## Veri İçeriği
+The project built a multi-dimensional impact score for social media content, combining engagement level, sentiment and topic diversity.
 
-Bu depoda yer alan veri setleri aşağıda özetlenmiştir:
+## Data
 
-- `data/birlestirilmis_veri_seti.csv`  
-  YouTube, Reddit ve Mastodon platformlarından elde edilen kamuya açık içeriklerin
-  ön işleme ve birleştirme adımlarından geçirilmiş nihai analiz veri setidir.
+| File | Content |
+|------|---------|
+| `data/birlestirilmis_veri_seti.csv` | Final analysis dataset: public content from YouTube, Reddit and Mastodon after cleaning and merging |
+| `data/ham_veriler.rar` | Raw public data collected from the platforms |
 
-- `data/ham_veriler.zip`  
-  Çalışma kapsamında kullanılan, platformlardan elde edilmiş kamuya açık ham
-  sosyal medya verilerini içermektedir.
+## Notes
 
-## Kullanım ve Etik Notlar
+- Shared for academic use only
+- Contains no personal data
+- Matches the analysis and findings in the project report
 
-- Veri setleri yalnızca akademik ve bilimsel amaçlarla paylaşılmıştır.
-- Çalışmada kişisel veri içeren herhangi bir bilgi yer almamaktadır.
-- Veri setleri, proje raporunda sunulan analiz ve bulgularla birebir uyumludur.
+The files were too large to attach to the report, so they are published here for transparency and reproducibility.
 
-## Açıklama
-
-Dosya boyutu ve teknik sınırlamalar nedeniyle veri setleri proje raporuna eklenmemiş,
-şeffaflık ve yeniden üretilebilirlik ilkeleri doğrultusunda bu GitHub deposu
-üzerinden paylaşılmıştır.
+Advisor: Oğuzhan Bilir
